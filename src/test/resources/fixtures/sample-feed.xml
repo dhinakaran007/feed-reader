@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sample News Channel</title>
+    <link>https://example.com/news</link>
+    <description>Sample feed for testing</description>
+    <item>
+      <title>Supreme Court upholds regulatory framework on semiconductor imports</title>
+      <link>https://example.com/news/article-101?utm_source=rss&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">sample-guid-101</guid>
+      <pubDate>Thu, 06 Nov 2026 09:30:00 +0000</pubDate>
+      <description>&lt;p&gt;A five-judge Constitution bench delivered its verdict today regarding technology regulations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
+

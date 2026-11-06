@@ -1,0 +1,61 @@
+# Keyword-based classification rules
+rules:
+  - topic: "lawsuits.india"
+    keywords:
+      - "Supreme Court"
+      - "High Court"
+      - "Madras HC"
+      - "Chief Justice"
+      - "bench"
+      - "verdict"
+      - "bail"
+      - "writ petition"
+      - "PIL"
+    confidence: 0.9
+
+  - topic: "lawsuits.international"
+    keywords:
+      - "International Court of Justice"
+      - "ICJ"
+      - "ICC"
+      - "extradition"
+      - "tribunal"
+    confidence: 0.85
+
+  - topic: "lawsuits.corporate-tech"
+    keywords:
+      - "antitrust"
+      - "patent infringement"
+      - "copyright lawsuit"
+      - "FTC"
+      - "DOJ"
+    confidence: 0.85
+
+  - topic: "innovations.tech"
+    keywords:
+      - "artificial intelligence"
+      - "LLM"
+      - "semiconductor"
+      - "GPU"
+      - "quantum computing"
+      - "open source"
+    confidence: 0.8
+
+  - topic: "innovations.medical"
+    keywords:
+      - "clinical trial"
+      - "FDA approval"
+      - "vaccine"
+      - "oncology"
+      - "CRISPR"
+    confidence: 0.85
+
+  - topic: "innovations.math-science"
+    keywords:
+      - "conjecture"
+      - "proof"
+      - "astronomy"
+      - "superconductivity"
+      - "particle physics"
+    confidence: 0.85
+

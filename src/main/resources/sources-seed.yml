@@ -1,0 +1,74 @@
+# Initial seed sources for Phase 1 walking skeleton
+sources:
+  - name: "The Hindu - National"
+    homepageUrl: "https://www.thehindu.com"
+    feedUrl: "https://www.thehindu.com/news/national/feeder/default.rss"
+    adapter: "RSS"
+    tier: "PRESS"
+    lean: "CENTER_LEFT"
+    country: "IN"
+    ownershipNote: "The Hindu Group / Kasturi & Sons Ltd"
+    reliabilityNote: "Established Indian daily of record"
+    defaultTopicSlug: "politics.india"
+    fetchIntervalMin: 30
+
+  - name: "Indian Express - India"
+    homepageUrl: "https://indianexpress.com"
+    feedUrl: "https://indianexpress.com/section/india/feed/"
+    adapter: "RSS"
+    tier: "PRESS"
+    lean: "CENTER"
+    country: "IN"
+    ownershipNote: "Indian Express Group"
+    reliabilityNote: "Leading investigative national daily"
+    defaultTopicSlug: "politics.india"
+    fetchIntervalMin: 30
+
+  - name: "LiveLaw"
+    homepageUrl: "https://www.livelaw.in"
+    feedUrl: "https://www.livelaw.in/rss/news"
+    adapter: "RSS"
+    tier: "WIRE"
+    lean: "NOT_APPLICABLE"
+    country: "IN"
+    ownershipNote: "Independent legal journalism"
+    reliabilityNote: "Real-time Supreme Court and High Court reporting"
+    defaultTopicSlug: "lawsuits.india"
+    fetchIntervalMin: 20
+
+  - name: "Bar & Bench"
+    homepageUrl: "https://www.barandbench.com"
+    feedUrl: "https://www.barandbench.com/rss/all"
+    adapter: "RSS"
+    tier: "WIRE"
+    lean: "NOT_APPLICABLE"
+    country: "IN"
+    ownershipNote: "Independent legal news portal"
+    reliabilityNote: "Indian judiciary filings, orders, and courtroom updates"
+    defaultTopicSlug: "lawsuits.india"
+    fetchIntervalMin: 20
+
+  - name: "Ars Technica"
+    homepageUrl: "https://arstechnica.com"
+    feedUrl: "https://feeds.arstechnica.com/arstechnica/index"
+    adapter: "RSS"
+    tier: "PRESS"
+    lean: "CENTER"
+    country: "US"
+    ownershipNote: "Condé Nast"
+    reliabilityNote: "Technology, science, policy and analysis"
+    defaultTopicSlug: "innovations.tech"
+    fetchIntervalMin: 30
+
+  - name: "Quanta Magazine"
+    homepageUrl: "https://www.quantamagazine.org"
+    feedUrl: "https://api.quantamagazine.org/feed"
+    adapter: "RSS"
+    tier: "PRESS"
+    lean: "NOT_APPLICABLE"
+    country: "US"
+    ownershipNote: "Simons Foundation"
+    reliabilityNote: "In-depth mathematics, physics, and computer science reporting"
+    defaultTopicSlug: "innovations.math-science"
+    fetchIntervalMin: 60
+
